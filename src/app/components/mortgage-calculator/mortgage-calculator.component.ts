@@ -51,4 +51,6 @@ export class MortgageCalculatorComponent implements AfterViewInit {
     const total = loanAmount * calculatedInterest / (1 - (Math.pow(1/(1 + calculatedInterest), loanLength)));
     return total.toFixed(2);
   }
+
+  //hoi
 }
