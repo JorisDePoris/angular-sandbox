@@ -52,5 +52,4 @@ export class MortgageCalculatorComponent implements AfterViewInit {
     return total.toFixed(2);
   }
 
-  //hoi
 }
